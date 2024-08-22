@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <style>
+        .nav-link {
+            text-decoration: none;
+            padding: 10px 15px;
+            color: black; /* Цвет по умолчанию */
+            transition: background-color 0.3s; /* Плавный переход */
+        }
+
+        .nav-link:hover {
+            background-color: lightblue; /* Цвет при наведении */
+        }
+
+        .nav-link.active {
+            background-color: blue; /* Цвет активного пункта */
+            color: white; /* Цвет текста активного пункта */
+        }
+    </style>
+</head>
+     <body>
+        <div class="container mt-4">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="/">Главная</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link active" href="/contacts">Контакты</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/blog">Блог</a>
+        </li>
+    </ul>
+</div>
+
+         <h1>Лучше не связывайтесь с нами</h1>
+         <p>Email: example@example.com</p>
+         <p>Телефон: +1234567890</p>
+     <div class="container">
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+             <div class="col-md-4">
+             <img src="static/images/agent/camel-driver.jpg" class="img-fluid rounded-start" alt="...">
+             </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Халид</h5>
+              <p class="card-text">Гоняю по пустыне на верблюде. </p>
+              <p class="card-text"><small class="text-body-secondary">Зх прокачу</small></p>
+            </div>
+        </div>
+       </div>
+     </div>
+
+
+   <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="static/images/agent/survivalist.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Инокентий</h5>
+        <p class="card-text">Бывший спецназовец, эксперт по выживанию</p>
+        <p class="card-text"><small class="text-body-secondary">Хватит дома сидеть</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="static/images/agent/ricksha.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Рамеш</h5>
+        <p class="card-text">Потомственный рикша</p>
+        <p class="card-text"><small class="text-body-secondary">Дэнги давай</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="static/images/agent/japona-san.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Харука Томоки</h5>
+        <p class="card-text">У самурая нет цели. Только путь</p>
+        <p class="card-text"><small class="text-body-secondary">神様に直</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="static/images/agent/reindeer-driver.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Нукр</h5>
+        <p class="card-text">Увезу тебя я в тундру</p>
+        <p class="card-text"><small class="text-body-secondary">А-а а-алени лу-у-ч-ш-е-е-е</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="static/images/agent/velo-driver.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Энрике</h5>
+        <p class="card-text">Велосипеды не производят выхлопные газы, а велосипедисты производят</p>
+        <p class="card-text"><small class="text-body-secondary">У меня всегда хорошее настроение</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+ </div>
+
+<!-- Подключение JavaScript для Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha384-QP8aHnbNDFDzk1Mw3y+9l - K+JtYGGslpZLaYfmO9NnHe1RBSICo8U7SiVvOg==" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+
+</html>
